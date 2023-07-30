@@ -10,10 +10,14 @@ The React ToDo App is a simple and interactive web application built using React
 - Engaging animations on buttons and list items.
 - Responsive design for optimal viewing on different devices.
 
+## Demo
+
+You can check out the live demo of the app [here](https://prayag2002.github.io/to-do-list-react/).
+
 ## Installation and Usage
 
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/react-todo-app.git
+git clone https://github.com/prayag2002/to-do-list-react.git
 ```
