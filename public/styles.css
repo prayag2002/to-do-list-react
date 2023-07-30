@@ -1,0 +1,114 @@
+body {
+  background-color: #f3f3f3;
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 140%;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  animation: fadeIn 1s ease;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.heading h1 {
+  transform: rotate(-2deg);
+  padding: 0.7rem 1.5rem;
+  border-radius: 50px;
+  background-color: #fdcb6e;
+  font-size: 2.2rem;
+  color: #333;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border: solid 3px #fdcb6e;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1.2rem;
+  color: #333;
+  width: 70%;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.form input:focus {
+  border-color: #fdcb6e;
+  outline: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  background-color: #fdcb6e;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease; /* Added transform animation */
+  color: #fff;
+}
+
+button span {
+  background: #fdcb6e;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.2s ease; /* Added color transition */
+}
+
+/* Subtle hover effect for the button */
+button:hover {
+  background-color: #f0c04d;
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Slightly scaled down pulse animation */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.98);
+  }
+}
+
+/* Change text color on list item hover */
+li:hover {
+  color: #f0c04d;
+}
